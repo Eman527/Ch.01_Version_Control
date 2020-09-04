@@ -14,7 +14,7 @@ screen=turtle.Screen()
 screen.bgcolor('black')
 jeff.speed(10)
 
-jeff.penup()
+jeff.penup()#left bottom cheek bone
 jeff.color ('cyan')
 jeff.goto(30,-100)
 jeff.begin_fill()
@@ -40,7 +40,7 @@ jeff.goto(30,-100)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(75,-80)
+jeff.goto(75,-80)# right bottom cheek bone
 jeff.pendown()
 jeff.begin_fill()
 jeff.left(150)
@@ -61,7 +61,7 @@ jeff.goto(75,-80)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(10,-30)
+jeff.goto(10,-30)#nose
 jeff.begin_fill()
 jeff.pendown()
 jeff.left(150)
@@ -74,7 +74,7 @@ jeff.goto(10,-30)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(70,60)
+jeff.goto(70,60) # top of the skull
 jeff.begin_fill()
 jeff.pendown()
 jeff.forward(20)
@@ -98,7 +98,7 @@ jeff.goto(70,60)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(40,5)
+jeff.goto(40,5)#right eye
 jeff.begin_fill()
 jeff.pendown()
 jeff.left(20)
@@ -113,7 +113,7 @@ jeff.goto(40,5)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(-5,-3)
+jeff.goto(-5,-3)# left eye
 jeff.begin_fill()
 jeff.pendown()
 jeff.right(75)
@@ -128,7 +128,7 @@ jeff.goto(-5,-3)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(40,-190)
+jeff.goto(40,-190)#bottom left border
 jeff.begin_fill()
 jeff.pendown()
 jeff.left(30)
@@ -141,7 +141,7 @@ jeff.goto(40,-190)
 jeff.penup
 jeff.end_fill()
 
-jeff.penup()
+jeff.penup()#bottom right border
 jeff.goto(120,-190)
 jeff.begin_fill()
 jeff.pendown()
@@ -157,7 +157,7 @@ jeff.goto(120,-190)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(80,-130)
+jeff.goto(80,-130)# right bottom middle border
 jeff.begin_fill()
 jeff.pendown()
 jeff.forward(20)
@@ -176,7 +176,7 @@ jeff.goto(80,-130)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(155,-20)
+jeff.goto(155,-20)# right arrow border
 jeff.begin_fill()
 jeff.pendown()
 jeff.forward(8)
@@ -202,7 +202,7 @@ jeff.goto(155,-20)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(0,-115)
+jeff.goto(0,-115)# left arrow border
 jeff.begin_fill()
 jeff.pendown()
 jeff.right(3)
@@ -231,7 +231,7 @@ jeff.goto(0,-115)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(-10,170)
+jeff.goto(-10,170)# top right border
 jeff.begin_fill()
 jeff.pendown()
 jeff.right(120)
