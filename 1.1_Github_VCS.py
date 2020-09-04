@@ -148,13 +148,13 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 15------------------
-This is the master branch
-me
-03/10/2005
-
-
-
-
+This is the testing1 branch
+Evan Redenius
+I like creating board games
+Iowa because of my dad but no preference
+Favorite color is red
+favorite basic subject is Math
+im exsited for this class
 
 
 ------------------Student 16------------------
