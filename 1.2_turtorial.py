@@ -14,9 +14,9 @@ screen=turtle.Screen()
 screen.bgcolor('black')
 jeff.speed(10)
 
-jeff.penup()#left bottom cheek bone
+jeff.penup()  # left bottom cheek bone
 jeff.color ('cyan')
-jeff.goto(30,-100)
+jeff.goto(30, -100)
 jeff.begin_fill()
 jeff.pendown()
 jeff.forward(20)
@@ -36,11 +36,11 @@ jeff.left(120)
 jeff.forward(20)
 jeff.left(60)
 jeff.forward(40)
-jeff.goto(30,-100)
+jeff.goto(30, -100)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(75,-80)# right bottom cheek bone
+jeff.goto(75, -80)  # right bottom cheek bone
 jeff.pendown()
 jeff.begin_fill()
 jeff.left(150)
@@ -57,11 +57,11 @@ jeff.right(120)
 jeff.forward(30)
 jeff.right(55)
 jeff.forward(45)
-jeff.goto(75,-80)
+jeff.goto(75, -80)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(10,-30)#nose
+jeff.goto(10, -30)  # nose
 jeff.begin_fill()
 jeff.pendown()
 jeff.left(150)
@@ -70,11 +70,11 @@ jeff.left(110)
 jeff.forward(35)
 jeff.left(90)
 jeff.forward(5)
-jeff.goto(10,-30)
+jeff.goto(10, -30)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(70,60) # top of the skull
+jeff.goto(70, 60)  # top of the skull
 jeff.begin_fill()
 jeff.pendown()
 jeff.forward(20)
@@ -94,11 +94,11 @@ jeff.right(35)
 jeff.forward(25)
 jeff.right(37)
 jeff.forward(95)
-jeff.goto(70,60)
+jeff.goto(70, 60)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(40,5)#right eye
+jeff.goto(40, 5)  # right eye
 jeff.begin_fill()
 jeff.pendown()
 jeff.left(20)
@@ -109,11 +109,11 @@ jeff.left(100)
 jeff.forward(30)
 jeff.left(55)
 jeff.forward(20)
-jeff.goto(40,5)
+jeff.goto(40, 5)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(-5,-3)# left eye
+jeff.goto(-5, -3)  # left eye
 jeff.begin_fill()
 jeff.pendown()
 jeff.right(75)
@@ -124,11 +124,11 @@ jeff.right(70)
 jeff.forward(7)
 jeff.right(50)
 jeff.forward(15)
-jeff.goto(-5,-3)
+jeff.goto(-5, -3)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(40,-190)#bottom left border
+jeff.goto(40, -190)  # bottom left border
 jeff.begin_fill()
 jeff.pendown()
 jeff.left(30)
@@ -137,12 +137,12 @@ jeff.left(100)
 jeff.forward(20)
 jeff.left(80)
 jeff.forward(40)
-jeff.goto(40,-190)
-jeff.penup
+jeff.goto(40, -190)
+jeff.penup()
 jeff.end_fill()
 
-jeff.penup()#bottom right border
-jeff.goto(120,-190)
+jeff.penup()  # bottom right border
+jeff.goto(120, -190)
 jeff.begin_fill()
 jeff.pendown()
 jeff.right(75)
@@ -153,11 +153,11 @@ jeff.right(110)
 jeff.forward(20)
 jeff.right(40)
 jeff.forward(100)
-jeff.goto(120,-190)
+jeff.goto(120, -190)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(80,-130)# right bottom middle border
+jeff.goto(80, -130)  # right bottom middle border
 jeff.begin_fill()
 jeff.pendown()
 jeff.forward(20)
@@ -172,11 +172,11 @@ jeff.forward(30)
 jeff.right(20)
 jeff.forward(20)
 jeff.left(40)
-jeff.goto(80,-130)
+jeff.goto(80, -130)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(155,-20)# right arrow border
+jeff.goto(155, -20)  # right arrow border
 jeff.begin_fill()
 jeff.pendown()
 jeff.forward(8)
@@ -198,11 +198,11 @@ jeff.left(90)
 jeff.forward(20)
 jeff.left(90)
 jeff.forward(185)
-jeff.goto(155,-20)
+jeff.goto(155, -20)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(0,-115)# left arrow border
+jeff.goto(0, -115)  # left arrow border
 jeff.begin_fill()
 jeff.pendown()
 jeff.right(3)
@@ -227,11 +227,11 @@ jeff.left(80)
 jeff.forward(30)
 jeff.right(40)
 jeff.forward(40)
-jeff.goto(0,-115)
+jeff.goto(0, -115)
 jeff.penup()
 jeff.end_fill()
 
-jeff.goto(-10,170)# top right border
+jeff.goto(-10, 170)  # top right border
 jeff.begin_fill()
 jeff.pendown()
 jeff.right(120)
@@ -240,16 +240,16 @@ jeff.left(90)
 jeff.forward(30)
 jeff.left(95)
 jeff.forward(30)
-jeff.goto(-10,170)
+jeff.goto(-10, 170)
 jeff.penup()
 jeff.end_fill()
 
 
 
 jeff.penup()
-jeff.goto(200,200)
+jeff.goto(0, -200)
 
 
 
-jeff.write('Evan Redenius',font=("Arial", 18, "normal")) # signs your name to your art
-turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
+jeff.write('Evan Redenius',font=("Arial", 18, "normal"))  # signs your name to your art
+turtle.exitonclick()  # Keeps pycharm window open so we can see the drawing
